@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -75,6 +74,13 @@
         a:hover {
             text-decoration: underline;
         }
+        .video-wrapper {
+            margin: 10px 0;
+        }
+        .video-wrapper iframe {
+            width: 100%;
+            height: 315px;
+        }
     </style>
 </head>
 <body>
@@ -95,11 +101,15 @@
         <section class="content-section">
             <h2>YouTube Content</h2>
             <p>Check out our Popular videos on YouTube:</p>
-            <ul>
-                <li><a href="https://youtu.be/YQQuQNfLMi0?si=vtL8nc_v4XEYvTp7">Create Bdjobs Account on Mobile</a></li>
-                <li><a href="https://youtu.be/p9UAf7HNIZs?si=Hj8uOlFx32ZfZh5g">Start Excel from Beginning</a></li>
-                <li><a href="https://youtu.be/QKJ893kaBLY?si=Zl1yo1rr8vnO0FXT">Excel Basic Formula for Beginners</a></li>
-            </ul>
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/vtL8nc_v4XEYvTp7" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/Hj8uOlFx32ZfZh5g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/Zl1yo1rr8vnO0FXT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </section>
         <section class="content-section">
             <h2>Microsoft Office Course Plan</h2>
